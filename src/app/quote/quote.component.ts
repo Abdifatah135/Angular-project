@@ -7,13 +7,12 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    { id: 1, name: "No Human is Limed",description:'Eliud Kipchoge' },
-    { id: 2, name: "Be a Voice not an Echo",description:'Nelson Mandela' },
-    { id: 3, name: "Love For All, Hatred For None" ,description:'Romeo'},
-    { id: 4, name: "Change the world by being yourself" ,description:'Malcom X'},
-    { id: 5, name: "Every moment is a fresh beggining" ,description:'Angelina Davies'},
-    { id: 6, name: "Aspire to inspire before you expire",description:'Thomas Michael' }
-  ];
+    new Quote(1, "No Human is Limed",'Eliud Kipchoge' ),
+    new Quote(2,"Be a Voice not an Echo",'Nelson Mandela' ),
+    new Quote(3, "Love For All, Hatred For None" ,'Romeo'),
+    new Quote(4,"Change the world by being yourself" ,'Malcom X'),
+    new Quote(5,"Every moment is a fresh beggining" ,'Angelina Davies'),
+    new Quote(6, "Aspire to inspire before you expire",'Thomas Michael' )  ];
   constructor() { }
 
   ngOnInit() {
