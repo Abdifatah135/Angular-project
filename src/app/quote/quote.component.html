@@ -5,7 +5,7 @@
           <li appStrikethrough>{{quote.name}} written on {{quote.completeDate|date}}</li>
         
         <button (click)='toggleDetails(i)'>Toggle Details</button>
-        <app-quote-detail *ngIf='quote.showDescription' [quote]='quote'(isComplete)= 'completeQuote($event,i)'></app-quote-detail>
+        <app-quote-detail *ngIf='quote.showDescription' [quote]='quote'(isComplete)= 'deleteQuote($event,i)'></app-quote-detail>
       </div>
   </ul>
   <p *ngIf='quotes.length > 5'>Your quotes are too many</p>
