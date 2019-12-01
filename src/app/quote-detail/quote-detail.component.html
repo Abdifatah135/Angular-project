@@ -1,4 +1,20 @@
-<p>{{quote.description}}</p>
+<p>{{ quote.description }}</p>
 
-<p>This quote was published at {{quote.completeDate|dateCount}} hours</p>
-<button (click)= 'quoteDelete(true)' class="btn btn-danger">Delete Quote</button>
+<p>This quote was published at {{ quote.completeDate | dateCount }} hours</p>
+<div class="row">
+  <div class="col-md-4">
+    <button (click)="quoteDelete(true)" class="btn btn-danger">
+      Delete Quote
+    </button>
+  </div>
+  <div class="col-md-4">
+    <button (click)="upvote()" class="btn btn-primary">
+      upVote
+    </button>
+  </div>
+  <div class="col-md-4">
+    <button (click)="downvote()" class="btn btn-danger">
+      downVote 
+    </button>
+  </div>
+</div>

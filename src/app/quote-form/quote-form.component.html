@@ -3,7 +3,7 @@
   <hr />
   <form (ngSubmit)='submitQuote()' #quoteForm="ngForm">
     <div class="form-group">
-      <label for="name">Author</label>
+      <label for="name">Quotes</label>
       <input
         type="text"
         required
@@ -13,14 +13,14 @@
         name="name"
       />
       <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-        <p><strong>Author is required</strong></p>
+        <p><strong>Quote is required</strong></p>
       </div>
 
       Display {{ newQuote.name }}
     </div>
     <div class="form-group">
       <label for="description"
-        ><strong>Write your Quotes here!!!</strong></label
+        ><strong>Write the author and description!!!</strong></label
       >
       <textarea
         class="form-control"
@@ -35,11 +35,11 @@
         [hidden]="description.valid || description.pristine"
         class="alert alert-danger"
       >
-        <p>Quote is required</p>
+        <p>description is required</p>
       </div>
     </div>
     <div class="form-group">
-      <label for="complete"><strong>Written</strong></label>
+      <label for="complete"><strong>Date</strong></label>
       <input type="date" id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel"required />
       <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
             <p>Date is required</p>
