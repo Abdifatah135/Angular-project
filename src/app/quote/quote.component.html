@@ -8,7 +8,9 @@
             {{ quote.name }} written on {{ quote.completeDate | date }}
           </h3>
 
-          <button (click)="toggleDetails(i)" class="btn btn-success">Quotes Details</button>
+          <button (click)="toggleDetails(i)" class="btn btn-success">
+            Quotes Details
+          </button>
         </div>
         <div *ngIf="quote.showDescription">
           <app-quote-detail
@@ -17,6 +19,9 @@
           ></app-quote-detail>
         </div>
       </div>
+    </div>
+    <div class="col-md-6">
+      <app-quote-form></app-quote-form>
     </div>
   </div>
 
