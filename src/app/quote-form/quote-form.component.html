@@ -10,7 +10,7 @@
         class="form-control"
         id="name"
         [(ngModel)]="newQuote.name"
-        #name="ngModel"
+        name="name"
         required
       />
       <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
