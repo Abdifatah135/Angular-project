@@ -1,6 +1,5 @@
 <p>{{ quote.description }}</p>
 
-
 <p>This quote was published at {{ quote.completeDate | dateCount }} hours</p>
 <div class="row">
   <div class="col-md-4">
@@ -8,14 +7,11 @@
       Delete Quote
     </button>
   </div>
-  <div class="col-md-4">
-    <button (click)="upvote()" class="btn btn-primary">
-      upVote
-    </button>
-  </div>
-  <div class="col-md-4">
-    <button (click)="downvote()" class="btn btn-danger">
-      downVote 
-    </button>
-  </div>
+<div class="card-body">
+  <h5 class="card-title">Number of Votes</h5>
+  <p class="card-text">{{numberOfVotes}}</p>
+  <button (click)="upvoteButtonClick()" class="btn btn-success">upvote</button> <br>
+  <button (click)="downvoteButtonClick()" class="btn btn-danger">downvote</button>
+</div>
+  
 </div>
