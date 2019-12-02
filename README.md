@@ -1,6 +1,30 @@
-# Quote
+# Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
+# Project Name
+
+* Qoutes
+
+## Author
+
+* Abdifatah Mohamed
+
+## Description
+* It is an app that displays quotes and a user is able to add quotes.
+
+## Technologies Used
+
+* HTML
+* CSS
+* Angular
+* Bootstrap
+
+## Installation Process
+
+* Open the terminal.
+* Cd to angular.
+* cd to Quotes.
+* Input code . or atom . depending on the visual studio.
 
 ## Development server
 
@@ -25,3 +49,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Licence
+
+* Copyrights(c) Abdifatah Mohamed
+
+## Contacts
+
+* mohamedabdifatah028@gmail.com
