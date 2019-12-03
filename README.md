@@ -1,6 +1,6 @@
 # Quotes
 
-* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 # Project Name
 
 * Qoutes
@@ -22,7 +22,7 @@
 ## Installation Process
 
 * Open the terminal.
-* Cd to angular.
+* cd to Desktop.
 * cd to Quotes.
 * Input code . or atom . depending on the visual studio.
 
