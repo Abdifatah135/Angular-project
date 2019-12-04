@@ -10,7 +10,7 @@ import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { StrikethroughDirective } from './strikethrough.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
-
+ import{ QuoteService } from './quote-service/quote.service'
 
 @NgModule({
   declarations: [
@@ -26,7 +26,7 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [QuoteService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

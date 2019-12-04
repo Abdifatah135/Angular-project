@@ -19,6 +19,27 @@
 * Angular
 * Bootstrap
 
+## BDD
+- Displays an error message if you leave the quote input field blank
+* INPUT: " "
+* OUTPUT: "Enter the quote"
+- Displays an error message if you leave the author field blank
+* INPUT: " "
+* OUTPUT: "Enter the name of the author"
+- Displays an error message if you leave the name input field blank
+* INPUT: " "
+* OUTPUT: "Enter the name of the publisher or your name"
+- Displays an option to delete a quote
+* INPUT: "Delete button of a quote pressed"
+* OUTPUT: "That particular quote from a list of quotes is deleted"
+- Display an option to UpVote a quote if you like it
+* INPUT: "Press INSPIRATIONAL Button"
+* OUTPUT: "UpVote property of a quote increments by 1"
+- Display an option to DownVote a quote if you dislike it
+* INPUT: "Press TERRIBLE Button"
+* OUTPUT: "DownVote property of a quote increments by 1"
+
+
 ## Installation Process
 
 * Open the terminal.
